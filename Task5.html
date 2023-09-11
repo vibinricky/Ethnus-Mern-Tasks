@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      form {
+        font-size: 20px;
+      }
+      input,
+      select,
+      button {
+        font-size: inherit;
+      }
+      table,
+      tr,
+      td {
+        border: 1px solid #333;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        border-collapse: collapse;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <center>
+        <h1 style="color: blue">Registration</h1>
+      </center>
+    </header>
+    <main>
+      <form action="">
+        <table>
+          <tr>
+            <th>
+              <label for="firstname">First Name: </label>
+            </th>
+            <td>
+              <input type="text" name="firstname" />
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <label for="lastname">Last Name: </label>
+            </th>
+            <td>
+              <input type="text" name="lastname" />
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <label for="email">Email: </label>
+            </th>
+            <td>
+              <input type="email" name="email" />
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <label for="password">Password: </label>
+            </th>
+            <td>
+              <input type="password" name="password" />
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <label for="re-password">Re-enter Password: </label>
+            </th>
+            <td>
+              <input type="password" name="re-password" />
+            </td>
+          </tr>
+          <tr>
+            <th rowspan="2">
+              <label for="gender">Gender: </label>
+            </th>
+            <td>
+              <input type="radio" name="gender" id="Male" />
+              <label for="Male">Male</label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input type="radio" name="gender" id="Female" />
+              <label for="Female">Female</label>
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <label for="age">Age: </label>
+            </th>
+            <td>
+              <input type="number" name="age" />
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <label for="phone">Phone Number: </label>
+            </th>
+            <td>
+              <input type="tel" name="phone" />
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <label for="address">Address: </label>
+            </th>
+            <td>
+              <textarea
+                name="address"
+                id="address"
+                cols="40"
+                rows="6"
+              ></textarea>
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <label for="state">State: </label>
+            </th>
+            <td>
+              <input type="text" name="State" id="State" />
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <label for="country">Country: </label>
+            </th>
+            <td>
+              <select name="country" id="country">
+                <option value="">Choose your country</option>
+                <option value="India">India</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <label for="language">Languages Known: </label>
+            </th>
+            <td>
+              <input type="checkbox" name="language" id="English" />
+              <label for="English">English</label>
+              <input type="checkbox" name="language" id="Kannada" />
+              <label for="Kannada">Kannada</label>
+              <input type="checkbox" name="language" id="Hindi" />
+              <label for="Hindi">Hindi</label>
+              <input type="checkbox" name="language" id="Telugu" />
+              <label for="Telugu">Telugu</label>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+          </tr>
+        </table>
+      </form>
+    </main>
+  </body>
+</html>
